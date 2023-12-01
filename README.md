@@ -1,10 +1,9 @@
 # Guvi Signup/Login Page Project
 
-![Guvi Signup/Login Page](path/to/screenshot.png)
 
 ## Introduction
 
-This project is a simple Signup and Login web application built using HTML, CSS, JavaScript, PHP, and MySQL. The goal is to create a user authentication system with a clean and user-friendly interface.
+This project is a simple Signup and Login web application built using HTML, CSS, JavaScript, PHP, MySQL and mongoDB. The goal is to create a user authentication system with a clean and user-friendly interface.
 
 ## Features
 
@@ -27,7 +26,7 @@ Before running the project locally, make sure you have the following installed:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/guvi-signup-login.git
+   git clone https://github.com/NeeyalD/guvi
    ```
 
 2. Start your PHP development server or use XAMPP.
@@ -52,14 +51,8 @@ For a live demo of this project, click [here](https://neeyald.github.io/guvi/).
 
 Feel free to contribute to the project by submitting bug reports, feature requests, or pull requests.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
 Special thanks to Guvi for providing this project task.
 
----
-
-**For Live Demo, click [here](https://neeyald.github.io/guvi/).**
