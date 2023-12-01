@@ -45,7 +45,8 @@ Before running the project locally, make sure you have the following installed:
 
 ## Live Demo
 
-For a live demo of this project, click [here](https://neeyald.github.io/guvi/).
+For a live demo of this project,[click here](index.html).
+.
 
 ## Contributing
 
