@@ -7,8 +7,8 @@ This project is a simple Signup and Login web application built using HTML, CSS,
 
 Here are few screenshots of its pages
 ![Project Screenshot](./imgs/signup.png)
-![Project Screenshot](./imgs/login.png)
-![Project Screenshot](./imgs/profile.png)
+
+
 
 ## Features
 
@@ -38,6 +38,8 @@ Before running the project locally, make sure you have the following installed:
 
 3. Open the project in your web browser.
 
+![Project Screenshot](./imgs/login.png)
+
 ## Usage
 
 1. Open the project in your web browser.
@@ -49,6 +51,8 @@ Before running the project locally, make sure you have the following installed:
 4. Explore the simple and intuitive user interface.
 
 ## Live Demo
+
+![Project Screenshot](./imgs/profile.png)
 
 For a live demo of this project,[click here](https://neeyald.github.io/guvi/).
 .
