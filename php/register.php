@@ -11,11 +11,12 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+$username = trim($_POST['username']);
+$password = trim($_POST['password']);
+
+
 $stmt = $conn->prepare("INSERT INTO userdata (username, userpassword) VALUES (?, ?)");
 $stmt->bind_param("ss", $username, $password);
-
-$username = $_POST['name'];
-$password = $_POST['password'];
 
 if ($stmt->execute()) {
     $response = ["success" => true, "message" => "User registered successfully"];
