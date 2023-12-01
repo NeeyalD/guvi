@@ -1,0 +1,58 @@
+body {
+    background-color: #08c54d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.index-div {
+    max-width: 400px;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: #08c54d; /* Updated color */
+    border-radius: 15px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.index-div h2 {
+    color: #fff; /* Updated text color */
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.index-btn {
+    background-color: #fff; /* Updated button color */
+    color: #08c54d; /* Updated button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+
+.index-btn:hover {
+    background-color: #a3ffa3; /* Updated hover color */
+}
+
+/* Add buffering circle */
+.buffering-circle {
+    border: 6px solid rgba(255, 255, 255, 0.3); /* Circle border color */
+    border-top: 6px solid #fff; /* Circle top color */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

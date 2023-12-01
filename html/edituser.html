@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit User Profile</title>
+    <link rel="stylesheet" href="../css/editstyles.css">
+</head>
+<body>
+    <div class="edit-container">
+        <h2>Edit User Profile</h2>
+        <form id="editForm" method="post">
+            <label for="editName">Name:</label>
+            <input type="text" id="editName" name="editName" required>
+
+            <label for="editDOB">Date of Birth:</label>
+            <input type="date" id="editDOB" name="editDOB" required>
+
+            <label for="editContact">Contact:</label>
+            <input type="text" id="editContact" name="editContact" required>
+
+            <button type="button" onclick="saveChanges()">Save Changes</button>
+            <button type="button" onclick="cancelEdit()">Cancel</button>
+        </form>
+    </div>
+
+    <script src="../js/update.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</body>
+</html>
