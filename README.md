@@ -5,6 +5,11 @@
 
 This project is a simple Signup and Login web application built using HTML, CSS, JavaScript, PHP, MySQL and mongoDB. The goal is to create a user authentication system with a clean and user-friendly interface.
 
+Here are few screenshots of its pages
+![Project Screenshot](screenshot.png)
+![Project Screenshot](screenshot.png)
+![Project Screenshot](screenshot.png)
+
 ## Features
 
 - **User Registration:** Allow users to sign up with their details.
