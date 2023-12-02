@@ -38,6 +38,11 @@ Before running the project locally, make sure you have the following installed:
 
 3. Open the project in your web browser.
 
+ ## Note : 
+
+due to use of an online free sql database, the data getting stored in the database might take some time , the git contains the 2nd version of code which is compatible for online database
+
+
 ![Project Screenshot](./imgs/login.png)
 
 ## Usage
@@ -56,9 +61,6 @@ Before running the project locally, make sure you have the following installed:
 
 For a live demo of this project,[click here](https://neeyald.github.io/guvi/).
 .
-## Note : 
-
-due to use of an online free sql database, the data getting stored in the database might take some time , the git contains the 2nd version of code which is compatible for online database
 
 ## Contributing
 
